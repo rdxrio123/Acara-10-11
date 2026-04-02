@@ -1,0 +1,330 @@
+@extends('backend/layouts.template')
+
+@section('content')
+    <!-- ============================================================== -->
+    <!-- Demos part -->
+    <!-- ============================================================== -->
+    <section id="demos" class="demos spacer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 text-center">
+                    <h1>Ready to use Demos for your project</h1>
+                    <p class="m-t-20">Our Demos are awesomely designed and carefully crafted, which helps you to create your project in no-time. Check them out!</p>
+                </div>
+                <div class="col-md-6 m-t-40">
+                    <div class="live-box bg-light text-center p-t-30 p-b-0">
+                        <img class="shadow img-fluid" src="{{ asset('backend/assets/images/1.jpg') }}" alt="d4">
+                        <div class="overlay">
+                            <a class="btn btn-danger live-btn" href="html/ltr/index.html" >Live Preview</a>
+                        </div>
+                    </div>
+                    <div class="m-l-30 m-t-30">
+                        <span class="font-12 font-bold text-uppercase">Neat and Clean</span>
+                        <h3>Left Sidebar Demo</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 m-t-40">
+                    <div class="live-box bg-light text-center p-t-30 p-b-0">
+                        <img class="shadow img-fluid" src="{{ asset('backend/assets/images/2.jpg') }}" alt="d4">
+                        <div class="overlay">
+                            <a class="btn btn-danger live-btn" href="html/minisidebar/index2.html" >Live Preview</a>
+                        </div>
+                    </div>
+                    <div class="m-l-30 m-t-30">
+                        <span class="font-12 font-bold text-uppercase">Modern and Trendy</span>
+                        <h3>Mini Sidebar Demo</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 m-t-40">
+                    <div class="live-box bg-light text-center p-t-30 p-b-0">
+                        <img class="shadow img-fluid" src="{{ asset('backend/assets/images/3.jpg') }}" alt="d4">
+                        <div class="overlay">
+                            <a class="btn btn-danger live-btn" href="html/horizontal/index3.html" >Live Preview</a>
+                        </div>
+                    </div>
+                    <div class="m-l-30 m-t-30">
+                        <span class="font-12 font-bold text-uppercase">Minimal and Clean</span>
+                        <h3>Horizontal Demo</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 m-t-40">
+                    <div class="live-box bg-light text-center p-t-30 p-b-0">
+                        <img class="shadow img-fluid" src="{{ asset('backend/assets/images/4.jpg') }}" alt="d4">
+                        <div class="overlay">
+                            <a class="btn btn-danger live-btn" href="html/dark/index2.html" >Live Preview</a>
+                        </div>
+                    </div>
+                    <div class="m-l-30 m-t-30">
+                        <span class="font-12 font-bold text-uppercase">Pure Classic</span>
+                        <h3>Dark Version Demo</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 m-t-40">
+                    <div class="live-box bg-light text-center p-t-30 p-b-0">
+                        <img class="shadow img-fluid" src="{{ asset('backend/assets/images/5.jpg') }}" alt="d4">
+                        <div class="overlay">
+                            <a class="btn btn-danger live-btn" href="html/iconbar/index.html" >Live Preview</a>
+                        </div>
+                    </div>
+                    <div class="m-l-30 m-t-30">
+                        <span class="font-12 font-bold text-uppercase">Stunning Combination</span>
+                        <h3>Iconbar Demo</h3>
+                    </div>
+                </div>  
+                <div class="col-md-6 m-t-40">
+                    <div class="live-box bg-light text-center p-t-30 p-b-0">
+                        <img class="shadow img-fluid" src="{{ asset('backend/assets/images/6.jpg') }}" alt="d4">
+                        <div class="overlay">
+                            <a class="btn btn-danger live-btn" href="html/rtl/index3.html" >Live Preview</a>
+                        </div>
+                    </div>
+                    <div class="m-l-30 m-t-30">
+                        <span class="font-12 font-bold text-uppercase">Right to Left Version</span>
+                        <h3>RTL Demo</h3>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- Apps part -->
+    <!-- ============================================================== -->
+    <section id="apps" class="spacer bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 text-center">
+                    <h1>Ready to use Apps for your project</h1>
+                    <p class="m-t-20">Our Apps are awesomely designed and carefully crafted, which helps you to create your project in no-time. Check them out!</p>
+                </div>
+                <div class="col-md-6 m-t-40">
+                    <div class="live-box bg-white text-center p-t-30 p-b-0">
+                        <img class="shadow img-fluid" src="{{ asset('backend/assets/images/mail-app.jpg') }}" alt="d4">
+                        <div class="overlay">
+                            <a class="btn btn-danger live-btn" href="html/ltr/inbox-email.html" >Live Preview</a>
+                        </div>
+                    </div>
+                    <div class="m-l-30 m-t-30">
+                        <span class="font-12 font-bold text-uppercase">Awesome Design</span>
+                        <h3>Email Application</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 m-t-40">
+                    <div class="live-box bg-white text-center p-t-30 p-b-0">
+                        <img class="shadow img-fluid" src="{{ asset('backend/assets/images/task-board-app.jpg') }}" alt="d4">
+                        <div class="overlay">
+                            <a class="btn btn-danger live-btn" href="html/ltr/app-taskboard.html" >Live Preview</a>
+                        </div>
+                    </div>
+                    <div class="m-l-30 m-t-30">
+                        <span class="font-12 font-bold text-uppercase">Easy to Use</span>
+                        <h3>Taskboard Application</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 m-t-40">
+                    <div class="live-box bg-white text-center p-t-30 p-b-0">
+                        <img class="shadow img-fluid" src="{{ asset('backend/assets/images/calendar-app.jpg') }}" alt="d4">
+                        <div class="overlay">
+                            <a class="btn btn-danger live-btn" href="html/ltr/app-calendar.html" >Live Preview</a>
+                        </div>
+                    </div>
+                    <div class="m-l-30 m-t-30">
+                        <span class="font-12 font-bold text-uppercase">Clean and Modern</span>
+                        <h3>Calendar Application</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 m-t-40">
+                    <div class="live-box bg-white text-center p-t-30 p-b-0">
+                        <img class="shadow img-fluid" src="{{ asset('backend/assets/images/chat-app.jpg') }}" alt="d4">
+                        <div class="overlay">
+                            <a class="btn btn-danger live-btn" href="html/ltr/app-chats.html" >Live Preview</a>
+                        </div>
+                    </div>
+                    <div class="m-l-30 m-t-30">
+                        <span class="font-12 font-bold text-uppercase">Ready to Use</span>
+                        <h3>Chat Application</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 m-t-40">
+                    <div class="live-box bg-white text-center p-t-30 p-b-0">
+                        <img class="shadow img-fluid" src="{{ asset('backend/assets/images/contact-app.jpg') }}" alt="d4">
+                        <div class="overlay">
+                            <a class="btn btn-danger live-btn" href="html/ltr/app-contacts.html" >Live Preview</a>
+                        </div>
+                    </div>
+                    <div class="m-l-30 m-t-30">
+                        <span class="font-12 font-bold text-uppercase">Killer Listing</span>
+                        <h3>Contact Application</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 m-t-40">
+                    <div class="live-box bg-white text-center p-t-30 p-b-0">
+                        <img class="shadow img-fluid" src="{{ asset('backend/assets/images/ticket-app.jpg') }}" alt="d4">
+                        <div class="overlay">
+                            <a class="btn btn-danger live-btn" href="html/ltr/ticket-list.html" >Live Preview</a>
+                        </div>
+                    </div>
+                    <div class="m-l-30 m-t-30">
+                        <span class="font-12 font-bold text-uppercase">Easier and Faster</span>
+                        <h3>Ticket Application</h3>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- Feature part 2 -->
+    <!-- ============================================================== -->
+    <section id="feature2" class="feature2 spacer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7 text-center">
+                    <h1>Features which will Amaze you!</h1>
+                    <p class="m-t-20">We know how important is for you to save time and create something stunning for your client, its easily possible with Nice Admin</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s1.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">6 Color Schemes</h4>
+                    <p class="m-t-20">We have included 6 pre-defined color schemes with Nice Admin.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s2.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">Colored / Dark / Light Sidebar</h4>
+                    <p class="m-t-20">Options available to select suitable sidebar for your project</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s3.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">900+ Page Templates</h4>
+                    <p class="m-t-20">Yes, we have added 900+ Pages template to make it easier.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s4.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">500+ UI Components</h4>
+                    <p class="m-t-20">You will get more than 500 unique UI Components</p>
+                </div>
+            </div>
+            <div class="row m-t-40">
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s5.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">Lots of Widgets</h4>
+                    <p class="m-t-20">Widgets are important and we have included lots of them</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s6.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">Bootstrap 4</h4>
+                    <p class="m-t-20">Nice Admin is build with latest Bootstrap 4 Framework</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s7.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">2000+ Font Icons</h4>
+                    <p class="m-t-20">Included more than 2000 Premium Font Icons</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s8.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">Fully Responsive</h4>
+                    <p class="m-t-20">Nice Admin is fully responsive with Bootstrap Framework</p>
+                </div>
+            </div>
+            <div class="row m-t-40">
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s9.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">Lots of Table Example</h4>
+                    <p class="m-t-20">We made sure that you get lots of table options to choose</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s10.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">Easy to Customize</h4>
+                    <p class="m-t-20">Our Template is easy to do any required changes</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s11.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">Lots of Chart Options</h4>
+                    <p class="m-t-20">Included best possible chart options for your project</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s12.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">Multiple File Uploads</h4>
+                    <p class="m-t-20">Option to upload more than one file at one time</p>
+                </div>
+            </div>
+            <div class="row m-t-40">
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s13.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">Validation Forms</h4>
+                    <p class="m-t-20">We have included validation forms with Nice Admin</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s14.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">eCommerce Pages</h4>
+                    <p class="m-t-20">If you are eCommerce company, you got covered</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s15.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">Calendar Design</h4>
+                    <p class="m-t-20">We have included Calendar application with Nice Admin</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center m-t-40">
+                    <span class="feature-image">
+                        <img src="{{ asset('backend/assets/images/s16.jpg') }}" alt="f1">
+                    </span>
+                    <h4 class="m-t-30">Gallery Options</h4>
+                    <p class="m-t-20">Included gallery options for you to showcase products</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- Testimonial part -->
+    <!-- ============================================================== -->
+    <section id="testimonial" class="testimonial spacer">
+        <span class="aboveline"></span>
+        <div class="container">
+            <div class="row m-t-40 m-b-40 justify-content-center">
+                <div class="col-9">
+                    <div class="owl-carousel owl-theme text-center" id="testi">
+                        <div class="item">
+                            <img src="{{ asset('backend/assets/images/quote.png') }}" alt="quote">
+                            <h3 class="m-t-30 m-b-30 quote">Very nice template. You get a really <b>big package</b> with examples for everything, so you are <b>ready to go if you want quickly build a nice looking app.</b> The support team is also fast and nice if you have any questions they answer it fast.</h3>
+                            <span class="text-info">Mark Maurer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="underline"></span>
+    </section>
+@endsection
