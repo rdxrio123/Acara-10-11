@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ManagementUserController;
 use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,3 +29,4 @@ Route::resource('user', ManagementUserController::class);
 
 
 Route::resource('home', HomeController::class);
+Route::resource('dashboard', DashboardController::class);
