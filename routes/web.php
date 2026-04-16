@@ -30,3 +30,10 @@ Route::resource('user', ManagementUserController::class);
 
 Route::resource('home', HomeController::class);
 Route::resource('dashboard', DashboardController::class);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
